@@ -10,3 +10,5 @@ three = Label(root, text="Three", bg="blue", fg="white")
 three.pack(side=LEFT, fill=Y) # dynamically fills vertically
 
 root.mainloop() # keeps the container open - continues the loop until broken by closing
+
+# test note...

@@ -16,7 +16,7 @@ for guessesTaken in range(1, 7):
     elif guess > secretNumber:
         print('Your guess is too high.')
     else:
-        break # This condition is for the correct guess!
+        break  # This condition is for the correct guess!
 
 if guess == secretNumber:
     print('Good job, ' + name + '!  You guessed my number in ' + str(guessesTaken) + ' guesses!')
